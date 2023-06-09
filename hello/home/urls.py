@@ -9,5 +9,6 @@ admin.site.index_title = "Welcome to Jahnvi's Django APP Portal"
 urlpatterns = [
     path('', views.index, name='index'),
     path('about', views.about, name='about'),
+    path('services', views.services, name='services'),
     path('contact', views.contact, name='contact'),
 ]
